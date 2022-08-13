@@ -1,0 +1,45 @@
+.container {
+	max-width: 400px;
+	min-height: 500px;
+	margin: auto;
+	border: solid 1px #333;
+	border-radius: 20px;
+	background-color: #000;
+	padding: 10px;
+}
+.screen-container {
+	height: 80px;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	border-bottom: solid black 1px;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.ca-btn {
+	display: inline-block;
+	font-size: 34px;
+	padding: 10px 15px 10px 15px;
+	width: 75px;
+    height: 75px;
+    margin: 2px;
+    border: none;
+    border-radius: 8px;
+    background-color:#3333ff 
+}
+button.operator-btn.active{
+	background-color: #333;
+	color: #fff;
+}
+@media only screen and (max-width: 700px){
+	.ca-btn{
+		width: 100px;
+	}
+	.screen-container{
+		height: 50px;
+	}
+
+}
+	
+
